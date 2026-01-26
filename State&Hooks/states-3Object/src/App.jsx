@@ -10,6 +10,7 @@ const App = () => {
 
   const handleRating = () => {
     setMovie({...movie, ratings:5})
+    
   }
   return (
     <section>
