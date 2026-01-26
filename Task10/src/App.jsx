@@ -5,8 +5,8 @@ import Weather from "./components/Weather"
 const App = () => {
   return (
     <div>
-      {/* <Weather/> */}
-      {/* <UserStatus loggedIn={true} isAdmin={true}/> */}
+      <Weather/>
+      <UserStatus loggedIn={true} isAdmin={true}/>
       <Greeting timeOfDay="Morning"/>
     </div>
   )
